@@ -1,0 +1,54 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(var(--color-one), var(--color-two));
+  position: relative;
+  display: flex;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  --color-one: rgba(121, 180, 235);
+  --color-two: rgb(81, 141, 196);
+  --color-three: rgb(30, 91, 146);
+  --color-four: rgb(14, 73, 128);
+  --color-five: rgb(2, 46, 86);
+  color: var(--color-five);
+  text-decoration: none;
+}
+
+button {
+  background-color: white;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 80%;
+  transform: scale(1.03);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-three);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-five);
+  border-radius: 10px;
+}

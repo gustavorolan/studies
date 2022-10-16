@@ -1,0 +1,30 @@
+execercicio 4
+
+primeiro eu fiz a busca, em seguida eu vi que a busca que eu estava fazendo, estava aparecendo como elemento html, depois
+lembrei que em aula foi mencionado que dava pra injetar codigo com img, então eu procurei no google como fazer 
+<img src='#' onerror=alert(1) /> então eu fui testando até acertar '><img src='#' onerror=alert(1) />''
+para fechar as aspas
+
+exercicio 2
+primeiro eu naveguei, depois eu fui no target e joguei pro repeater, lá eu tentei jogar pra trás como foi feito em aula, 
+mas o correto era somente colocar o diretório
+
+exercicio 3
+primeiro eu pesquisei como funcionava o x-original-url como o url da requisição estava para / e  o acesso tava bloqueado no front, ele acabava libernado a entrada
+quando eu coloquei url: /   x-original-url : /admin/delete?username=wiener, depois disso eu vi o site no render, e tinha a opção de deletar, então eu fui no html, e achei a requisição, mas não deu certo, a resposta da requisicao foi que eu não tinha passado o parâmetro de username. Nesse sentido, eu mudei o metodo para post para poder passar
+o body, passando o username=carlos no body resolveu e deletou
+
+exercicio 1
+determinar o numero de colunas
+'order by 1--
+'order by 2--
+'order by 3--
+3 columns, primeira é o id
+
+determine datatype
+'UNION select NULL,'b','1'--
+
+Como o primeiro não aparecei presumi ser o id, depois eu segui a ordem, primeiro tinha uma string depois o numero.
+
+Para resolver
+'UNION select NULL,NULL,NULL--

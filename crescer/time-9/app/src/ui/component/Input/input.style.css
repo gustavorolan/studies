@@ -1,0 +1,16 @@
+.inputComponent input {
+  border-radius: 50px;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  color: var(--color-three);
+  border: 1px solid var(--color-three);
+}
+.inputComponent input::placeholder {
+  color: var(--color-one);
+}
+
+.inputComponent input:hover {
+  background-color: var(--color-two);
+  opacity: 60%;
+}

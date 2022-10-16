@@ -1,0 +1,27 @@
+.radio-button__label {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px outset var(--gray-border);
+  background-color: var(--red-button-secondary);
+  color: var(--white-text);
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.radio-button__label:not(.radio-button__selecionado):hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.radio-button__selecionado {
+  border: 3px inset var(--yellow-text);
+  transform: scale(0.95);
+}
+
+.radio-button__caixa-radio {
+  display: none;
+}

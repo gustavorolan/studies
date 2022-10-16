@@ -1,0 +1,5 @@
+.teams-section {
+  display: flex;
+  background-color: var(--color-gray);
+  height: calc(100vh - (80px));
+}

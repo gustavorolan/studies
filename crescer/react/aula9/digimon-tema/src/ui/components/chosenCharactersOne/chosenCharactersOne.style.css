@@ -1,0 +1,28 @@
+.chosenCharactersOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 30vh;
+  margin: 5px;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #d197ff 0%, #ad45ff 100%);
+}
+.chosenCharactersOne img {
+  width: 60%;
+  padding: 10px;
+  border-radius: 100%;
+}
+.chosenCharactersOne button {
+  border: none;
+  background: linear-gradient(180deg, #76d300 0%, #5ba300 100%);
+  border-radius: 5px;
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+
+.chosenCharactersOne p {
+  margin-top: 2px;
+  margin-bottom: 6px;
+}

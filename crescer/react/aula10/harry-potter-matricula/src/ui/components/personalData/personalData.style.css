@@ -1,0 +1,57 @@
+form {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.fullName {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.AdressAndNumber {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.adress {
+  display: flex;
+  flex-direction: column;
+  width: 78%;
+}
+.adressNumber {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.petAndBlood {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+.pet {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.bloodType {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.bloodType input {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.bloodType label {
+  margin-top: 10px;
+}

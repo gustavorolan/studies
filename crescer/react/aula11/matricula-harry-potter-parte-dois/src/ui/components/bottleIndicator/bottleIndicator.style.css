@@ -1,0 +1,11 @@
+.bottleIndicator {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottleIndicator img:nth-child(1),
+.bottleIndicator img:nth-child(3),
+.bottleIndicator img:nth-child(5) {
+  margin: 5px 40px 5px 40px;
+}

@@ -1,0 +1,1 @@
+export { BASE_POST } from './base-post'

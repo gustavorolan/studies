@@ -1,0 +1,6 @@
+.feed {
+  width: 100%;
+  min-height: calc(100vh - var(--header-height));
+  background-color: var(--white-smoke);
+  padding: 30px 10%;
+}

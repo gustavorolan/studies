@@ -1,0 +1,62 @@
+.listPeopleContainer {
+  background-color: rgba(1, 1, 1, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: space-around;
+  overflow-y: auto;
+}
+
+.profilePictureAndNickname {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 20%;
+  height: 50px;
+}
+.profilePictureAndNickname img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.peopleComments {
+  width: 50%;
+  height: 80px;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commentAndUserContainer {
+  width: 90%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 0.1px solid var(--color-button);
+  border-radius: 20px;
+  margin: 5px;
+}
+.exitButton {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  background-color: var(--color-button);
+  height: 20px;
+  width: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  font-size: x-small;
+}
+.exitButton button {
+  width: 100%;
+  height: 100%;
+}

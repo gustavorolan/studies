@@ -1,0 +1,22 @@
+  services:
+    spring:
+      build:
+        context: .
+        dockerfile: Dockerfile
+      ports:
+       - "10000:10000"
+      container_name: spring
+      depends_on:
+        - db
+      environment:
+        - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/postgres
+        - SPRING_DATASOURCE_USERNAME=postgres
+        - SPRING_DATASOURCE_PASSWORD=123456
+        - SPRING_JPA_HIBERNATE_DDL_AUTO=create-drop
+    db:
+      image: 'postgres'
+      container_name: db
+      environment:
+        - POSTGRES_USER=postgres
+        - POSTGRES_PASSWORD=123456
+

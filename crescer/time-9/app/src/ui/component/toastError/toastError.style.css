@@ -1,0 +1,41 @@
+.toastErrorContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(var(--color-two), var(--color-four));
+  opacity: 95%;
+}
+.toastError {
+  width: 40vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--color-four);
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 2px 4px black;
+  color: white;
+  transition: 0.3 ease;
+  position: relative;
+}
+
+.toastError p {
+  position: absolute;
+  top: 1px;
+  margin: 10px;
+  left: calc(50% - 40px);
+  width: 70px;
+  height: 70px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+  border-radius: 100%;
+  background-color: var(--color-five);
+}

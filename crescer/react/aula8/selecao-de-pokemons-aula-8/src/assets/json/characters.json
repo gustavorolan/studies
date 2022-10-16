@@ -1,0 +1,20 @@
+[
+  {
+    "id": 390,
+    "name": "Chimchar",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/390.png",
+    "type": "FIRE"
+  },
+  {
+    "id": 393,
+    "name": "Piplup",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/393.png",
+    "type": "WATER"
+  },
+  {
+    "id": 387,
+    "name": "Turtwig",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/387.png",
+    "type": "GRASS"
+  }
+]

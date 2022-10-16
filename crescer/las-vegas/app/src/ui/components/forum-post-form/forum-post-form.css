@@ -1,0 +1,44 @@
+.forum-post-form-box {
+  width: 60%;
+  height: 80%;
+  background-color: var(--color-light-purple);
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.forum-post-form-box > label {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.forum-post-form-box > textarea {
+  resize: none;
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  font-size: 15px;
+}
+
+.forum-post-form-box > button {
+  border: none;
+  background-color: var(--color-purple);
+  color: var(--color-gray);
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: var(--transition-time-default);
+  cursor: pointer;
+}
+
+.forum-post-form-box > button:hover {
+  transform: translateY(-5px);
+}

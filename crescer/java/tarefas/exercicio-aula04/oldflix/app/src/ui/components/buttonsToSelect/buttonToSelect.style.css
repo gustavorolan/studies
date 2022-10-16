@@ -1,0 +1,35 @@
+.buttonToSelectContainer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.buttonToSelectContainer button {
+  background-color: rgba(0, 230, 0, 0.7);
+  padding: 10px;
+  border-radius: 20px;
+  margin: 5px;
+  font-size: small;
+  color: white;
+  font-weight: bolder;
+}
+
+.buttonToSelectContainer button:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  border-radius: 100%;
+  background-color: rgba(0, 230, 0, 0.7);
+  border-radius: 20px;
+  margin: 5px;
+  font-size: small;
+  font-weight: bolder;
+  border-radius: 20px;
+  font-size: small;
+  color: white;
+  font-weight: bolder;
+  width: 40px;
+  height: 40px;
+}

@@ -1,0 +1,21 @@
+.mainScreen {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10%;
+}
+
+.centralScreen {
+  width: 50%;
+  height: 82%;
+  border: 10px solid #333;
+  border-radius: 30px;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

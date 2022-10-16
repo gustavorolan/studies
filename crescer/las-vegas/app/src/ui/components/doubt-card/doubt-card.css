@@ -1,0 +1,169 @@
+.doubt-card {
+  width: 50%;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition-time-default);
+  display: flex;
+  flex-direction: column;
+}
+
+.doubt-author-information {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  background-color: var(--color-purple);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-light-purple);
+}
+
+.doubt-author {
+  display: flex;
+  width: 22%;
+  align-items: flex-start;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+.doubt-author > img {
+  height: 80%;
+  margin-right: 10px;
+}
+
+.author-name-email {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 80%;
+}
+
+.doubt-post {
+  width: 100%;
+  background-color: var(--color-gray);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.doubt-card-text {
+  padding: 10px;
+  text-align: left;
+  word-wrap: break-word;
+  font-size: 150%;
+}
+
+.doubt-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doubt-image > img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 5px;
+  margin: 15px 0px;
+}
+
+/* ------------------------- */
+.doubt-description {
+  text-align: left;
+  width: 100%;
+}
+
+.doubt-in-modal {
+  display: flex;
+  height: 80%;
+  justify-content: center;
+}
+
+.doubt-in-modal-image {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doubt-in-modal-image > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.doubt-detailed-information {
+  background-color: var(--color-light-purple);
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.doubt-detailed-author-information {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.doubt-detailed-description {
+  word-wrap: break-word;
+  border-bottom: 2px solid var(--color-purple);
+  padding: 10px 0;
+}
+
+.doubt-detailed-comment {
+  word-wrap: break-word;
+  margin: 10px 0;
+  background-color: var(--color-gray);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.teste {
+  height: 90%;
+}
+.comments-container {
+  overflow-y: scroll;
+  max-height: 800px;
+}
+
+.comment-input {
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+}
+
+.input-file-comment {
+  display: none;
+}
+
+.image-icon-input-file > img {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.comment-form {
+  border-radius: 5px;
+  background-color: white;
+  height: 40px;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.comment-input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.submit-comment-button {
+  background: none;
+  border: none;
+}
+.submit-comment-button > img {
+  height: 23px;
+  width: 23px;
+}

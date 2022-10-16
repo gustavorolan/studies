@@ -1,0 +1,50 @@
+.ridesContainer {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.avaliationContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid var(--color-three);
+  border-radius: 20px;
+  width: 70%;
+}
+.avaliationContainer p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  font-size: 25px;
+  color: var(--color-three);
+}
+.avaliationContainer div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+}
+.avaliationContainer button {
+  width: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .avaliationContainer div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+}

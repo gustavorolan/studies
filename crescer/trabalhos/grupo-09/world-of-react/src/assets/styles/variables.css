@@ -1,0 +1,11 @@
+:root {
+  --red-button: rgba(110,0,0, 1);
+  --red-button-secondary: rgba(120,0,0, 1);
+  --red-card: rgba(110, 0, 0, 0.7);
+  --yellow-text: rgba(217,168,0, 1);
+  --white-text: rgba(255, 255, 255, 1);
+  --gray-border: rgba(128, 128, 128, 1);
+  --background-content: rgba(0, 0, 0, 0.6);
+  --background-input: rgba(0, 0, 0, 0.6);
+  --background-modal: rgba(0, 0, 0, 0.8);
+}

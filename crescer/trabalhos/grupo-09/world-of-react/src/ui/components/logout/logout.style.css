@@ -1,0 +1,23 @@
+.logout__button {
+  background-color: var(--red-button);
+  color: var(--white-text);
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 2px outset var(--gray-border);
+
+  min-height: 10px;
+  min-width: 120px;
+  box-shadow: inset 0 0 0.3em black;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+}
+
+.logout__button:hover,
+.logout__button:active {
+  background-color: var(--red-button-secondary);
+  color: var(--yellow-text);
+}

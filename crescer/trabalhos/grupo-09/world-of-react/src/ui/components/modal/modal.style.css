@@ -1,0 +1,66 @@
+.modal__content {
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  background-color: var(--background-modal);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 30vh;
+  border-radius: 8px;
+  color: var(--white-text);
+  padding: 8px;
+  text-align: center;
+  animation: modal-entering 0.5s;
+  z-index: 2;
+  border-radius: 4px;
+  border: 2px outset var(--gray-border);
+}
+
+.modal-hide {
+  display: none;
+}
+
+.modal__content button:first-child {
+  align-self: flex-end;
+}
+
+.modal__btn-close {
+  background-color: var(--red-button);
+  color: var(--white-text);
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 2px outset var(--gray-border);
+
+  min-height: 10px;
+  min-width: 10px;
+  box-shadow: inset 0 0 0.3em black;
+}
+
+.modal__btn-close:hover {
+  background-color: var(--red-button-secondary);
+  color: var(--yellow-text);
+}
+
+.modal__btn-close:hover {
+  color: var(--red-button);
+}
+
+.modal__error-message {
+  color: var(--red-card);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@keyframes modal-entering {
+  0% {
+    top: -100%;
+  }
+
+  100% {
+    top: 0;
+  }
+}

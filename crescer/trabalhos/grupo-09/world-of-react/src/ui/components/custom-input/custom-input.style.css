@@ -1,0 +1,25 @@
+.custom-input{
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-input__label{
+  color: var(--yellow-text);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  text-shadow: 2px 2px 1px black;
+}
+
+.custom-input__input{
+  min-height: 30px;
+  min-width: 250px;
+  color: var(--white-text);
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border-radius: 4px;
+  border: 2px outset var(--gray-border);
+  background-color: var(--background-input);
+  text-align: center;
+  font-size: 16px;
+}

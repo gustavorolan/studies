@@ -1,0 +1,87 @@
+.createContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  gap: 4px;
+  position: relative;
+  padding: 10px;
+}
+
+.inputLabelCreate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.createContainer label {
+  width: 100%;
+  padding: 8px 14px 8px 14px;
+  text-align: center;
+  background-color: rgba(0, 230, 0, 0.7);
+  border-radius: 20px;
+  margin: 10px;
+  border-radius: 20px;
+
+  font-size: small;
+  color: white;
+  font-weight: bolder;
+}
+
+.createContainer input {
+  width: 100%;
+  padding: 8px 14px 8px 14px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 10px;
+  color: black;
+}
+.createContainer button {
+  width: 100%;
+  padding: 8px 14px 8px 14px;
+  text-align: center;
+  background-color: rgba(0, 230, 0, 0.7);
+  border-radius: 20px;
+  margin: 10px;
+  border-radius: 20px;
+
+  font-size: small;
+  color: white;
+  font-weight: bolder;
+}
+.createContainer button:last-child {
+  width: 90%;
+}
+
+.buttonsCategory {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.backButton {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+}
+.backButton button {
+  border-radius: 100%;
+  background-color: rgba(0, 230, 0, 0.7);
+  border-radius: 100%;
+  margin: 5px;
+  font-size: small;
+  font-weight: bolder;
+  width: 40px;
+  height: 40px;
+  font-size: small;
+  color: white;
+  font-weight: bolder;
+}
+.selectedButton {
+  opacity: 0.7;
+  transform: scale(1.05);
+}

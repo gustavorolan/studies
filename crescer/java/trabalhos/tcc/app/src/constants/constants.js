@@ -1,0 +1,1 @@
+export const URL_BASE_TCC = 'https://agile-eyrie-98912.herokuapp.com/'

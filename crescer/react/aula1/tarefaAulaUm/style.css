@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "Circular Air";
+  src: url("http://db.onlinewebfonts.com/t/b0bc116d1147a46e14ddecc083e553b7.eot"); /* IE9*/
+  src: url("http://db.onlinewebfonts.com/t/b0bc116d1147a46e14ddecc083e553b7.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("http://db.onlinewebfonts.com/t/b0bc116d1147a46e14ddecc083e553b7.woff2")
+      format("woff2"),
+    /* chrome firefox */
+      url("http://db.onlinewebfonts.com/t/b0bc116d1147a46e14ddecc083e553b7.woff")
+      format("woff"),
+    /* chrome firefox */
+      url("http://db.onlinewebfonts.com/t/b0bc116d1147a46e14ddecc083e553b7.ttf")
+      format("truetype"),
+    /* chrome firefox opera Safari, Android, iOS 4.2+*/
+      url("http://db.onlinewebfonts.com/t/b0bc116d1147a46e14ddecc083e553b7.svg#Circular Air Light")
+      format("svg"); /* iOS 4.1- */
+}
+
+header {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 80%;
+  height: 60px;
+}
+
+.container {
+  width: 80%;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  direction: row;
+}
+li {
+  list-style-type: none;
+  padding: 20px;
+  font-family: Circular Air;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 101%;
+  color: #848484;
+}
+li:hover {
+  color: #731f07;
+  font-weight: bold;
+}
+.defaultContainer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  height: 560px;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainContainer h1 {
+  font-family: Circular Air;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 101%;
+  color: #506269;
+  width: 70%;
+  margin-bottom: 20px;
+}
+.mainContainer p:nth-of-type(1) {
+  font-family: Circular Air;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 101%;
+  color: #848484;
+  width: 60%;
+  margin-bottom: 20px;
+}
+.mainContainer p:nth-of-type(2) {
+  display: flex;
+  width: 60%;
+  height: 50px;
+  background-color: #a5410f;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.mainContainerFoto {
+  position: relative;
+}
+.mainContainerFoto img:nth-of-type(2) {
+  animation: loading 5s linear infinite;
+  top: -60px;
+  left: 0;
+  position: absolute;
+}
+
+.recentProjectContainer img {
+  height: 250px;
+  width: 100%;
+}
+
+.recentProjectContainer {
+  position: relative;
+  height: 825px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.textoRecentProject p {
+  font-family: Circular Air;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 101%;
+  color: #a5410f;
+}
+.textoRecentProject h1 {
+  font-family: Circular Air;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84.4788px;
+  line-height: 101%;
+  color: #a5410f;
+}
+
+.textoImagens h2 {
+  font-family: Circular Air;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18.8193px;
+  line-height: 101%;
+  color: #731f07;
+}
+.textoImagens p {
+  font-family: Circular Air;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17.317px;
+  line-height: 101%;
+  color: #731f07;
+}
+
+.informacoesDeContatoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.contactUsContainer {
+  height: 60%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.backgroundLayer {
+  z-index: -20;
+  position: absolute;
+  left: -12.5%;
+  top: 0%;
+  height: 100%;
+  width: 125%;
+  margin: 0;
+  background-color: rgba(165, 65, 15, 0.18);
+}
+.backgroundLayer2 {
+  background-color: #a5410f;
+}
+.textoContactUsContainer {
+  width: 70%;
+}
+.textoContactUsContainer h1 {
+  font-family: Circular Air;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 101%;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.textoContactUsContainer p {
+  font-family: Circular Air;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 167%;
+  color: #ffffff;
+}
+.informacoesDeContatoContainer p {
+  font-family: Circular Air;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 167%;
+  color: #ffffff;
+  margin-left: 10px;
+}
+.informacoesDeContatoContainerPrincipal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+.footer p {
+  font-family: Circular Air;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 167%;
+  color: #a5410f;
+}
+@keyframes loading {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

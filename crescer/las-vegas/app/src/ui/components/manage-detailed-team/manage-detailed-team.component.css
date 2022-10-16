@@ -1,0 +1,16 @@
+.buttons {
+    height: 70vh;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+
+.trilha {
+    font-weight: 800;
+    width: 200px;
+    color: white;
+    background: var(--color-purple);
+    border-radius: 10px;
+    height: 40px;
+    margin-right: 80px;
+}
+

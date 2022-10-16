@@ -1,0 +1,32 @@
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+server:
+  error:
+    include-message: always
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/devslearning
+    #?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+    username: postgres
+    password: postgres
+    hikari:
+      auto-commit: false
+  jpa:
+    hibernate:
+      ddl-auto: update
+      # ddl-auto: validate
+      #dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2KB
+      max-file-size: 200MB
+      max-request-size: 215MB
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: https://auth-homolog.cwi.com.br/.well-known/openid-configuration/jwks
+          # issuer-uri: https://auth-homolog.cwi.com.br/oauth/v2/oauth-anonymous

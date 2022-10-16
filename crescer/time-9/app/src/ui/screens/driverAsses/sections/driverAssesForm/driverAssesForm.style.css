@@ -1,0 +1,26 @@
+.driverAssesContainer{
+    height: 50%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(2, 46, 86,80%);
+    border-radius: 20px;
+    color: white;
+    
+    position: absolute;
+}
+
+.driverAssesContainer forms{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.driverAssesContainer *{
+    color: white;
+}

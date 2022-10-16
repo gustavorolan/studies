@@ -1,0 +1,14 @@
+.moneyPrinter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+}
+
+.moneyPrinter button {
+  width: 200px;
+}
+.moneyPrinter input {
+  width: 200px;
+}

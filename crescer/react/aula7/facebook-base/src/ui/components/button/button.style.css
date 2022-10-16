@@ -1,0 +1,15 @@
+.button {
+  background-color: var(--mariner);
+  padding: 10px 20px;
+  border: 0;
+  color: var(--white);
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.button:hover,
+.button:active {
+  background-color: var(--havelock-blue);
+}

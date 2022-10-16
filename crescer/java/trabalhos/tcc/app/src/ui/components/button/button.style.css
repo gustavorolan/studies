@@ -1,0 +1,8 @@
+.buttonComponent button {
+  background-color: var(--color-three);
+  padding: 15px;
+  background-color: rgb(155, 198, 46);
+  border-radius: 20px;
+  min-width: 150px;
+  border: none;
+}

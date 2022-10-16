@@ -1,0 +1,74 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 420px;
+  width: 650px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 5px;
+  box-shadow: 5px 5px rgba(1, 1, 1, 0.2);
+  position: relative;
+}
+.mainContainer input {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.mainContainer select {
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
+}
+.mainContainer h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 73.4%;
+  color: #ffffff;
+}
+.mainContainer label {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 73.4%;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.mainContainer input {
+  height: 40px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.mainContainer select {
+  height: 40px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button {
+  height: 40px;
+  width: 180px;
+  border: none;
+  background: linear-gradient(5.2deg, #d45aff 3.52%, #cd3eff 80.16%);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+h1 {
+  margin-top: 20px;
+}
+
+.backButton {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 50px;
+}
+
+.mainContainer option {
+  color: black;
+}

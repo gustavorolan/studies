@@ -1,0 +1,42 @@
+.classesContainer {
+  height: 60%;
+  width: 90%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: white;
+}
+.classes {
+  display: flex;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+.classesSmaller {
+  height: 80%;
+  width: 100%;
+}
+.mattersChoiceContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 480px;
+  width: 650px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 5px;
+  box-shadow: 5px 5px rgba(1, 1, 1, 0.2);
+  position: relative;
+}
+.mattersChoiceContainer label {
+  color: black;
+}
+.selectedClass {
+  background: rgba(212, 90, 255, 0.1);
+  border-radius: 5px;
+}

@@ -1,0 +1,13 @@
+.app {
+  width: 100%;
+  height: 100vh;
+}
+
+.app__header {
+  background-color: var(--mariner);
+  color: var(--white);
+  width: 100%;
+  height: var(--header-height);
+  font-size: 22px;
+  padding: 15px 10%;
+}

@@ -1,0 +1,15 @@
+export { LoginScreen } from "./login-screen/login-screen.jsx";
+export { MyTeamsScreen } from "./teams/teams-screen";
+export { CoursesScreen } from "./courses/courses-screen";
+export { VideosScreen } from "./videos/videos-screen.jsx";
+export { ForumScreen } from "./forum/forum-screen.jsx";
+export { MyCoursesScreen } from "./my-courses/my-courses.screen.jsx";
+export { PendentCoursesScreen } from "./pendent-courses/pendent-courses.screen.jsx";
+export { EvaluationsScreen } from "./evaluations/evaluations.screen.jsx";
+export { PendentRemovementCoursesScreen } from "./pendent-removement-courses/pendent-removement-courses.screen.jsx";
+export { MyMessages } from "../screens/my-messages/my-messages.screen.jsx";
+export { TeamIncludeUser } from "./team-include-user/team-include-user.screen"
+export { TeamRemoveUser } from "./team-remove-user/team-remove-user.screen"
+export { AddCoursesScreen } from "./add-courses-screen/add-courses-screen.jsx"
+export { VideosAddScreen } from "./video-add-screen/video-add-screen.screen.jsx"
+export { DoubtDetailsScreen } from "./doubt-details/doubt-details-screen.jsx"

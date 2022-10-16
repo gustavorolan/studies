@@ -1,0 +1,19 @@
+.button-type-chooser__list {
+  width: 30%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 20vh;
+  left: 6vh;
+}
+.button-type-chooser__list button {
+  width: 100px;
+  height: 55px;
+}
+.buttonTypeChooser button:hover {
+  transform: scale(1.035);
+  transition: ease 0.3s;
+}

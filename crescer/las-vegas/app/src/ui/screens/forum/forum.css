@@ -1,0 +1,67 @@
+.forum-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.forum-button-form {
+  width: 220px;
+  height: 50px;
+  background: none;
+  background-color: var(--color-light-green);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.doubts-list-cards {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  height: 100%;
+  text-align: center;
+  justify-content: flex-end;
+}
+
+.buttons-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.buttons-page > h2 {
+  font-size: 200%;
+}
+
+.button-control-page {
+  background: none;
+  border: none;
+  background-color: var(--color-purple);
+  color: var(--color-gray);
+  padding: 10px;
+  cursor: pointer;
+  transition: var(--transition-time-default);
+  width: 100px;
+  font-size: 18px;
+}
+
+.up-page {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.up-page:hover {
+  transform: translateX(10px);
+}
+
+.back-page {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.back-page:hover {
+  transform: translateX(-10px);
+}

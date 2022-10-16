@@ -1,0 +1,10 @@
+.deactivatePessenger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40%;
+}
+.deactivatePessenger button {
+  width: 200px;
+}

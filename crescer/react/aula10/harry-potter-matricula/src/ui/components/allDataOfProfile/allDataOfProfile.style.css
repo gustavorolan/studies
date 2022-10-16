@@ -1,0 +1,64 @@
+.personalData {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 5px;
+  height: 100px;
+  width: 90%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+.schoolYearChosen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5%;
+}
+.nameProfile {
+  margin-left: 5%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+}
+.houseSelecionada {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 30%;
+  padding: 5px 20px 5px 20px;
+  position: absolute;
+  bottom: -20px;
+  left: 35%;
+  background: linear-gradient(5.2deg, #ffce20 3.52%, #ffa843 80.16%);
+  border-radius: 100px;
+}
+.listaDeClassesSelecionadas {
+  height: 180px;
+  width: 90%;
+  background: rgba(255, 255, 255, 0.05);
+  overflow-y: scroll;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.inputBotton {
+  margin-top: 30px;
+  width: 90%;
+}
+.inputBotton input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 0;
+}
+.listaDeClassesSelecionadas span {
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.mainContainer h1 {
+  margin: 20px;
+}

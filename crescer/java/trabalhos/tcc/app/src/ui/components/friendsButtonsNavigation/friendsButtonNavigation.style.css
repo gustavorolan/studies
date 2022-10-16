@@ -1,0 +1,11 @@
+.navigationButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+}
+
+.navigationButtons {
+  width: 200px;
+  margin: 10px;
+}

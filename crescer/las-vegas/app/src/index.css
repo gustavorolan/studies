@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --color-purple: #7839cc;
+  --color-light-purple: #f1ebfa;
+  --color-orange: #ef4910;
+  --color-yellow: rgb(255, 197, 7);
+  --color-red: rgb(255, 0, 0);
+  --color-gray: #e5e5e5;
+  --color-gray-2: #828282;
+  --color-lightGreen: #f0f3ed;
+  --color-light-green: #0df2a6;
+  --transition-time-default: all 0.55s;
+  --color-purple-background-chat: rgb(241, 235, 250);
+  --color-purple-background-mesage: rgb(225, 210, 244);
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+::-webkit-scrollbar {
+  width: 0px; /* width of the entire scrollbar */
+}
+
+.purple-title {
+  color: var(--color-purple);
+}

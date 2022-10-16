@@ -1,0 +1,95 @@
+.listCharacters__character{
+  display: flex;
+  padding: 16px;
+  background: var(--background-content);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  border-radius: 4px;
+  border: 2px outset var(--gray-border);
+
+  max-width: 90vw;
+  max-height: 70vh;
+  overflow-y: hidden;
+  margin: 10px 20px
+}
+
+.listCharacters__character:hover{
+  overflow-y: scroll; 
+  padding-right: 10px;
+}
+
+.listCharacters__character::-webkit-scrollbar{
+  width: 6px;
+  box-shadow: 0 0 0.5em black;
+}
+
+.listCharacters__character::-webkit-scrollbar-thumb{
+  background-color: var(--red-card);
+  border-radius: 5px;
+}
+
+.listCharacters__character::-webkit-scrollbar-track-piece:start{
+  background: transparent;
+  margin-top: 10px;
+}
+
+.listCharacters__character-content > Button{
+  margin: 8px 0 16px 0;
+}
+
+.listCharacters__character-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.listCharacters__character-details{
+  margin-bottom: 10px;
+}
+
+.listCharacters__button{
+  color: var(--white-text);
+  margin: 0 16px;
+  background: var(--red-card);
+  padding: 16px;
+  border-radius: 4px;
+  border: 2px outset var(--gray-border);
+  cursor: pointer;
+  transition: transform 0.5s ease;
+ 
+  
+}
+
+.listCharacters__button > img{
+  max-width: 100px;
+  height: 160px;
+  border-radius: 4px;
+  border: 2px outset var(--gray-border);
+  object-fit: cover;
+}
+
+.listCharacters__button:hover{
+  transform: scale(1.05);
+  color: var(--yellow-text);
+}
+
+.listCharacters__button > p{
+  font-size: 18px;
+  margin: 0;
+  max-width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.listCharacters__button .listCharacters__character-name{
+  color: var(--yellow-text);
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 2px 2px 1px black;
+}

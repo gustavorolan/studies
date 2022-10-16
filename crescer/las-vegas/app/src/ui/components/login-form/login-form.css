@@ -1,0 +1,73 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+
+.login-form > div {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.login-form > div > label {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.login-form-input {
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  padding: 15px;
+  border: 2px solid black;
+}
+
+.submit-login-button {
+  background-color: var(--color-purple);
+  border: none;
+  height: 60px;
+  border-radius: 100px;
+  color: white;
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: var(--transition-time-default);
+}
+
+.submit-login-button:hover {
+  transform: scale(1.1);
+}
+
+fieldset {
+  border: 2px solid transparent;
+  border-top-color: var(--color-gray);
+  box-sizing: border-box;
+  grid-area: 1 / 1;
+  padding: 20px;
+  width: inherit;
+}
+
+fieldset:nth-of-type(2) {
+  transform: rotate(90deg);
+}
+
+fieldset:nth-of-type(3) {
+  transform: rotate(180deg);
+}
+
+fieldset:nth-of-type(4) {
+  transform: rotate(-90deg);
+}
+
+legend {
+  font-size: 15px;
+  margin: auto;
+  padding: 0 4px;
+}
+
+fieldset:nth-of-type(3) > legend {
+  transform: rotate(180deg);
+}

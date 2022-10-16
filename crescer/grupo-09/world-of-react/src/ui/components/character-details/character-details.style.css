@@ -1,0 +1,68 @@
+.charactersDetails__content{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+  min-width: 50%;
+  min-height: 20vh;
+  background: var(--background-content);
+
+  color: var(--yellow-text);
+  background-color: var(--background-content);
+  border-radius: 4px;
+  border: 2px outset var(--gray-border);
+  padding: 8px;
+  top: 0;
+  left: 25%;
+}
+
+.charactersDetails__character,
+.charactersDetails__stats,
+.charactersDetails__actions,
+.charactersDetails__info,
+.charactersDetails__itens{
+  background-color: var(--background-content);
+  border-radius: 4px;
+  border: 2px outset var(--gray-border);
+  padding: 8px;
+  text-align: center;
+}
+
+.charactersDetails__character p,
+.charactersDetails__stats p,
+.charactersDetails__actions p,
+.charactersDetails__info p,
+.charactersDetails__itens p{
+  margin: 4px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 280px;
+  text-align: center;
+}
+
+.charactersDetails__long-info{
+  min-width: 250px;
+  text-align: center;
+}
+
+.charactersDetails__character > img{
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+}
+
+.charactersDetails__itens-slot > img{
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  cursor: help;
+}
+
+.charactersDetails__button{
+  position: fixed;
+}
+
+.charactersDetails__button > Button{
+  margin: 20px;
+}

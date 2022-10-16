@@ -1,0 +1,51 @@
+.taskbar {
+  background-color: var(--color-light-purple);
+  height: calc(100vh - (60px));
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.taskbar a {
+  text-decoration: none;
+}
+
+.taskbar-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  width: 80px;
+  max-width: 80px;
+  color: var(--color-purple);
+  transition: var(--transition-time-default);
+  cursor: pointer;
+  border: none;
+  margin: 5px;
+}
+
+.taskbar-button:hover {
+  border-bottom: 5px solid var(--color-purple);
+}
+
+.taskbar-button > img {
+  height: 30px;
+}
+
+.arrow-button {
+  width: 100%;
+  background-color: var(--color-light-purple);
+  border: none;
+  font-size: 20px;
+  transition: var(--transition-time-default);
+  height: 70px;
+  color: var(--color-purple);
+}
+
+.arrow-button:hover {
+  cursor: pointer;
+  border: 10px solid var(--color-purple);
+}

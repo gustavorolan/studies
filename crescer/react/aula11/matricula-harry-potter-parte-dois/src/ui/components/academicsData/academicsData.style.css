@@ -1,0 +1,74 @@
+.schoolYearContainer {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.schoolYear {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  border-radius: 1px;
+  width: 55px;
+  height: 55px;
+}
+.buttonSelected {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  border-radius: 1px;
+  box-sizing: border-box;
+  border-radius: 1px;
+  width: 55px;
+  height: 55px;
+}
+.houseContainer {
+  width: 90%;
+  margin: 0;
+  padding: 0;
+}
+.houseButton {
+  border-radius: 0px;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.orange {
+  background: #ffa843;
+  border-radius: 5px 0px 0px 5px;
+}
+.blue {
+  background: #4e7bf0;
+  border-radius: 0px 5px 5px 0px;
+}
+.green {
+  background: #3bb639;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.yellow {
+  background: #ffce20;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.houseButtonSelected {
+  opacity: 70%;
+}
+
+.academicsData h3 {
+  margin: 20px;
+  margin-bottom: 30px;
+}
+.academicsData h1 {
+  margin: 20px;
+}
+
+.buttonRaffle {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: transparent;
+}

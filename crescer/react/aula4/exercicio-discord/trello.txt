@@ -1,0 +1,5 @@
+!trello 
+!list nomeLista 
+!create  list:to do  nome:NomeCard  desc:descrição texto 
+!delete nomeCard 
+!ping

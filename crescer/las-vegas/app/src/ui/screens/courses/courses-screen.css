@@ -1,0 +1,27 @@
+.courses-container {
+  border-radius: 15px;
+  height: 100%;
+  padding: 10px;
+  overflow-y: auto;
+  flex-wrap: wrap;
+  display: flex;
+  align-self: center;
+}
+
+.courses-title {
+  color: var(--color-purple);
+  margin-left: 130px;
+  height: 80px;
+  width: 600px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 52px;
+  text-transform: uppercase;
+}
+
+.courses-subtitle {
+  color: var(--color-gray-2);
+  margin: 20px;
+}

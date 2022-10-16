@@ -1,0 +1,61 @@
+.characterOptionContainer {
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+}
+.characterOptionContainer img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+}
+
+.characterOptionContainer button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10%;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0);
+  transition: ease 0.3s;
+}
+.firsIsBeingChosen:hover button {
+  border: none;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 0;
+}
+.firsIsBeingChosen:hover img {
+  border: 2px solid greenyellow;
+  z-index: 0;
+}
+
+.secondIsBeingChosen:hover button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+  z-index: 0;
+}
+.secondIsBeingChosen:hover img {
+  border: 2px solid blue;
+  z-index: 0;
+}
+
+.thisIsCharacterOne button {
+  border: 2px solid greenyellow;
+  z-index: 20;
+}
+.thisIsCharacterOne:hover button,
+.thisIsCharacterTwo button:hover {
+  border: none;
+  z-index: 20;
+}
+.thisIsCharacterOne:hover img,
+.thisIsCharacterTwo:hover img {
+  border: 2px solid #cccc;
+  z-index: 20;
+}
+
+.thisIsCharacterTwo button {
+  border: 2px solid blue;
+  z-index: 20;
+}

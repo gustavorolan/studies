@@ -1,0 +1,27 @@
+package br.com.cwi.crescer.melevaai.controller;
+
+
+import br.com.cwi.crescer.melevaai.controller.response.PassengerResponse;
+import br.com.cwi.crescer.melevaai.service.GetAllPassengersService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
+
+@RestController
+@CrossOrigin
+@RequestMapping("/meLevaAi/passageiros")
+public class GetAllPassengersController {
+
+    @Autowired
+    private GetAllPassengersService getAllPassengersService;
+
+    @GetMapping
+    public List<PassengerResponse> allOrders () {
+        return getAllPassengersService.get();
+    }
+
+}

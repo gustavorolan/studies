@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("./assets/images/digimon.png");
+  background-size: cover;
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  height: 100vh;
+}
+
+* {
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 80%;
+}

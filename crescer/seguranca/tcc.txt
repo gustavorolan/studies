@@ -1,0 +1,23 @@
+Primeiro erro encontrado foi um xss no search
+em principio eu achei q pudesse ser um query injection por ser uma pesquisa
+por estar renderizando o que eu estava colocando
+ao fazer o inspect eu vi que estava renderizando exatamente o q eu colocava
+logo, eu coloquei um script e funcionou <img src='#' onerror=alert(1) />
+
+
+Segundo problema na pagina de recuperação de senha 
+eles dizem o que extamente tu errou, o q abre espaço pra um ataque de força bruta
+pois tu sabe q aquele email existe
+pois so abre a opção das respostas quando o email existe
+
+terceiro problema eu fui testar se os dados do login estavam sendo sanitizados e não estavam
+então eu dei um order by e um numero absurdo para dar erro no servidor,
+e deu
+eles estavam passando direto o q o usuario passa
+logo poderia fazer o sql
+ai eu loguei sem senha com 
+
+na aba about us
+tem um acesso para o link para ler algo dentro de um lorem
+isso redireciona para arquivos do servidor
+mostrando arquivos confidenciais

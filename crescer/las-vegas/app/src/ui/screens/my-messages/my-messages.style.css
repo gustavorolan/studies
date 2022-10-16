@@ -1,0 +1,220 @@
+.messages-container {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - (60px));
+  padding: 0;
+  margin-top: 0;
+}
+
+.my-messages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  width: 70%;
+  height: 100%;
+  margin: 0;
+  padding: 0%;
+  color: var(--color-purple);
+  background-color: var(--color-purple-background-chat);
+}
+
+.background-messages {
+  background-image: url("../../../assets/image/BackgroundMessage.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.my-messages-box {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 100%;
+  align-items: end;
+  border-radius: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.my-messages-left {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  flex-direction: column;
+  text-align: start;
+  margin-top: 10px;
+}
+
+.my-messages-right {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  flex-direction: column;
+  text-align: end;
+  margin-top: 10px;
+}
+
+.my-messages-right div {
+  margin-top: 5%;
+  margin-right: 10px;
+  width: 50%;
+  min-height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: end;
+  background-color: var(--color-purple-background-mesage);
+  color: var(--color-purple);
+  font-size: 15px;
+  font-weight: 450;
+}
+
+.my-messages-right p {
+  display: inline-block;
+  width: 100%;
+}
+.my-messages-left div {
+  margin-top: 5%;
+  margin-left: 10px;
+  width: 50%;
+  min-height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: start;
+  background-color: white;
+  color: var(--color-purple);
+  font-size: 15px;
+  font-weight: 450;
+}
+
+.my-messages-left p {
+  width: 100%;
+  background-color: white;
+}
+
+.my-messages-left span {
+  width: 40%;
+  font-size: 10px;
+  max-width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-left: 30%;
+}
+
+.my-messages-right span {
+  width: 40%;
+  font-size: 10px;
+  max-width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  margin-right: 30%;
+}
+
+.my-messages-chat {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  position: relative;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.my-messages-chat button {
+  position: absolute;
+  right: 7%;
+  background-color: transparent;
+  border: none;
+  height: 100%;
+}
+.my-messages-chat input {
+  width: 90%;
+  border-radius: 5px;
+  border: none;
+  padding: 0px 10px;
+}
+
+.my-messages-people-to-chat {
+  width: 30%;
+  height: (100vh - (80px));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.my-messages-people-to-chat button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+  height: 20%;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px dotted var(--color-purple);
+  color: var(--color-purple);
+  font-weight: bold;
+}
+
+.my-messages-people-to-chat img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.titulo-people-to-chat h1 {
+  color: var(--color-purple);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 52px;
+}
+.my-messages-profile {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  height: 70px;
+  background-color: transparent;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.my-messages-profile-left {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-messages-profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+.my-messages-profile p {
+  text-align: left;
+  width: 55%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--color-purple);
+  margin-left: 10%;
+}
+
+.not-read {
+  background-color: black;
+}

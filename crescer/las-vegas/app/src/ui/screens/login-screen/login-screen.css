@@ -1,0 +1,31 @@
+.login-left-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-title {
+  color: var(--color-purple);
+  font-size: 60px;
+}
+
+.login-project-title {
+  display: flex;
+  width: 200px;
+  margin-bottom: 8%;
+  justify-content: space-between;
+}
+
+.create-account-button {
+  background: none;
+  border: none;
+  margin: 20px 0;
+  background-color: var(--color-light-green);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bolder;
+}

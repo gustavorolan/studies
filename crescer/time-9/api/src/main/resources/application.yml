@@ -1,0 +1,17 @@
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+server:
+  port: 10000
+  error:
+    include-message: always
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/melevaai
+    username: postgres
+    password: andrey
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      # ddl-auto: validate

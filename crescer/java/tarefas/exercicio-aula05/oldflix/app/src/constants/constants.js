@@ -1,0 +1,1 @@
+export const CATEGORY_ARRAY = ['OURO',"PRATA","BRONZE"]

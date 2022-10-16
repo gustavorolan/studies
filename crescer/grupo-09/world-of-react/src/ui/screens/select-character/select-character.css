@@ -1,0 +1,45 @@
+.selectCharacter__content{
+  background-image: url('../../../assets/img/background.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectCharacter__content div + div{
+  animation: rightAnimation 1s;
+}
+
+.selectCharacter__loader{
+  height: calc(100vh - 400px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selectCharacter__no-characters{
+  color: var(--yellow-text);
+  margin: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 2px 2px 1px black;
+}
+
+@keyframes rightAnimation {
+  0% {
+    opacity: 0;
+    transform: rotateY(70deg);
+    transform-origin: right;
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotateY(0);
+    transform-origin: right;
+  }
+}
+

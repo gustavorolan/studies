@@ -1,0 +1,8 @@
+.centralScreen {
+  position: relative;
+}
+.userSelectionButtonToDeactivate {
+  position: absolute;
+  bottom: 5px;
+  width: 200px;
+}

@@ -1,0 +1,19 @@
+CREATE TABLE movie (
+	id serial, 
+	rent_date date,
+	title varchar(255),
+	image_url text,
+	is_it_available boolean DEFAULT TRUE,
+	category varchar(255),
+	rent_responsible varchar(255),
+	description text
+);
+
+ALTER TABLE movie ADD PRIMARY KEY (id);
+
+ALTER TABLE movie ADD CONSTRAINT movie_category_check CHECK (category IN ('OURO', 'PRATA', 'BRONZE'));
+
+ALTER TABLE movie ALTER COLUMN title SET NOT NULL;
+ALTER TABLE movie ALTER COLUMN category SET NOT NULL;
+ALTER TABLE movie ALTER COLUMN description SET NOT NULL;
+ALTER TABLE movie ALTER COLUMN is_it_available SET NOT NULL;

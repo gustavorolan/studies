@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "streetFighter";
+  src: url("./assets/font/mk2.ttf");
+}
+body {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./assets/images/background\ khas\ arena.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: streetFighter;
+}
+#root {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  overflow: hidden;
+}
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.friendsList {
+  display: flex;
+  flex-direction: column;
+  width: 95vw;
+  min-height: 100vh;
+  justify-content: start;
+  align-items: center;
+  max-width: 1000px;
+}

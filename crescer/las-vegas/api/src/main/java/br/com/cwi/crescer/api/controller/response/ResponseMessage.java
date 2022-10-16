@@ -1,0 +1,14 @@
+package br.com.cwi.crescer.api.controller.response;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@Data
+public class ResponseMessage {
+    private String response;
+}
