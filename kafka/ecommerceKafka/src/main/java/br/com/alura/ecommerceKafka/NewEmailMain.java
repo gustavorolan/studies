@@ -1,20 +1,18 @@
 package br.com.alura.ecommerceKafka;
 
-import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.UUID;
-import java.util.concurrent.ExecutionException;
 
-public class NewOrderMain {
+public class NewEmailMain {
 	public static void main(String[] args)  {
-		try (var dispatcher = new KafkaDispatcher<Order>()) {
+		try (var dispatcher = new KafkaDispatcher<Email>()) {
 			for (var i = 0; i < 10; i++) {
-				var order = new Order(
+				var email = new Email(
 						UUID.randomUUID().toString(),
 						UUID.randomUUID().toString(),
-						BigDecimal.valueOf(Math.random() * 5000));
+						"message");
 
-				dispatcher.send("ECOMMERCE_NEW_ORDER", order.getUserId(), order);
+				dispatcher.send("ECOMMERCE_SEND_EMAIL", email.getUserId(), email);
 			}
 		} catch (Exception e) {
 			throw new RuntimeException(e);

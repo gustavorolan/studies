@@ -9,8 +9,10 @@
         <module name="ecommerceKafka" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="service-email" target="11" />
-    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ecommerceKafka" options="" />
+    </option>
   </component>
 </project>

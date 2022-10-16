@@ -9,14 +9,15 @@ public class EmailService {
 				var service = new KafkaService(
 						EmailService.class.getSimpleName(),
 						"ECOMMERCE_SEND_EMAIL",
-						emailService::parse)
+						emailService::parse,
+						Email.class.getName())
 		) {
 			service.run();
 		}
 
 	}
 
-	private void parse(ConsumerRecord<String, String> record) {
+	private void parse(ConsumerRecord<String, Email> record) {
 		System.out.println("Found something");
 		System.out.println("--------------------");
 		System.out.println("Sending email");
