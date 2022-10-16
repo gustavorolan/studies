@@ -675,9 +675,12 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOPP3Bd8NLTt2/tFI46P6jqcWuj7206jzCjPmoUVlnd4
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3RFAKa9bEHx+k0RaqyS9Cjk0NkBIB/rvrOr24+FodhOj5pgGgLl2TdfOSuEPgWOXT2HGNivRjueMvIDutXyH2q8yPZWlXB5U+oLCldS0G5Quofu880eWyLum4G1oXS9nbqPFnbvK+C6DUnjSK1oPkuZ9ijc1w5W3egDEKV5HTsSuWS1wPwtRx6yTUpnllXjcpZ2C12jzotBiKyOKkFfS8Nni3D1hc0IY1D6KcKwd+ger5+R3Rq7X1HdsDCtTPSPxaqmGjokEbxDLpZGYiwK9QqeM6QtxRNpa5FcGaibsBuPPofzpu4M4SZPk18jaNNYOSh4LjPESWdPzIusRBC/NH root@ubuntu-bionic
 -----END SSH HOST KEY KEYS-----
 [   24.023178] cloud-init[1645]: Cloud-init v. 22.2-0ubuntu1~18.04.3 running 'modules:final' at Fri, 30 Sep 2022 01:45:17 +0000. Up 23.76 seconds.
-[   24.023303] cloud-init[1645]: Cloud-init v. 22.2-0ubuntu1~18.04.3 finished at Fri, 30 Sep 2022 01:45:17 +0000. Datasource DataSourceNoCloud [seed=/dev/sdb][dsmode=net].  Up 24.01 seconds
-                                                                                                                                                                                                                                                                                        [ 1119.194682] INFO: rcu_sched self-detected stall on CPU
-[ 1119.196947] INFO: rcu_sched self-detected stall on CPU
+[   24.023303] cloud-init[1645]: Cloud-init v. 22.2-0ubuntu1~18.04.3 finished at Fri, 30 Sep 202[140044.798798] INFO: rcu_sched detected stalls on CPUs/tasks:
+[140044.799835] watchdog: BUG: soft lockup - CPU#0 stuck for 101s! [php:25884]
+[140044.799945] 	0-...!: (1 ticks this GP) idle=73a/140000000000001/0 softirq=394603/394603 fqs=0 
+[140044.824368] 	(detected by 1, t=27099 jiffies, g=124013, c=124012, q=144)
+[140044.843537] rcu_sched kthread starved for 27099 jiffies! g124013 c124012 f0x0 RCU_GP_WAIT_FQS(3) ->state=0x402 ->cpu=1
+947] INFO: rcu_sched self-detected stall on CPU
 [ 1119.200517] 	1-...!: (1 GPs behind) idle=bd2/140000000000001/0 softirq=46187/46211 fqs=0 
 [ 1119.207946] 	 (t=86117 jiffies g=10141 c=10140 q=109)
 [ 1119.208009] 	0-...!: (2 ticks this GP) idle=e3e/140000000000001/0 softirq=50389/50389 fqs=0 

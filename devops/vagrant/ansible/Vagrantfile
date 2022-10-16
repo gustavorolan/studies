@@ -3,6 +3,10 @@
 Vagrant.configure("2") do |config|
 
   config.vm.box = "ubuntu/bionic64"
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory=512
+    vb.cpus=1
+  end
 
   config.vm.define "mysqldb" do |mysql|
     mysql.vm.network "public_network"
@@ -45,6 +49,9 @@ Vagrant.configure("2") do |config|
     apt-add-repository --yes --update ppa:ansible/ansible && \
     apt-get install -y ansible && \
     sudo chown vagrant:vagrant /home/vagrant/ansible "
+
+    ansible.vm.provision "shell", inline:
+    "ansible-playbook -i /configs/ansible/hosts /configs/ansible/playbook.yml"
   end
 
 end
