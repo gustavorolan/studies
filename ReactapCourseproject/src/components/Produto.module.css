@@ -1,0 +1,27 @@
+.Produto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.imgContent {
+  display: block;
+  overflow: auto;
+}
+.img {
+  margin-bottom: 2rem;
+  display: inline-flex;
+  width: 100%;
+  scroll-behavior: auto;
+}
+.descricao {
+  font-family: 1.2rem;
+  line-height: 1.2;
+}
+.loading {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ccc;
+  border: 10px solid #ccc;
+}

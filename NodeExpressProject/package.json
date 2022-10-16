@@ -1,0 +1,41 @@
+{
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "babel-plugin-inline-dotenv": "^1.7.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  },
+  "type": "module",
+  "name": "node",
+  "description": "Uses mongo database and jwt authentication",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/node": "^7.18.6",
+    "@babel/plugin-transform-modules-commonjs": "^7.18.6",
+    "@babel/preset-env": "^7.18.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavorolan/NodeExpressProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavorolan/NodeExpressProject/issues"
+  },
+  "homepage": "https://github.com/gustavorolan/NodeExpressProject#readme"
+}

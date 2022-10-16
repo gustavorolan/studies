@@ -1,0 +1,23 @@
+.Contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 100%;
+}
+.Dados {
+  padding: 0px;
+  list-style: none;
+}
+.Dados li {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0.8rem;
+}
+.Dados li::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background-color: #ddd;
+  margin-right: 10px;
+}
