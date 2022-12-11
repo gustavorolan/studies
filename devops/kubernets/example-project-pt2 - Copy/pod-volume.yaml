@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-volume
+spec:
+  containers: 
+    - name:  nginx-container
+      image: nginx:latest
+      volumeMounts:
+        - mountPath: /volume
+          name: primeiro-volume
+    - name:  nginx-container-2
+      image: nginx:latest
+      volumeMounts:
+        - mountPath: /volume
+          name: primeiro-volume
+  volumes:  
+    - name: primeiro-volume
+      hostPath:
+        path: /C/Users/gustavo.soares/Documents/programação/studies/devops/kubernets/example-project-pt2/volume
+        type: Directory
+
